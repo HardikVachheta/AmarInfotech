@@ -22,14 +22,14 @@ export const Footer = () => {
                         <Link to="/" style={{ color: "white" }} className="hover:text-gray-400 transition-colors duration-200">nbcnews.com Site Map</Link>
                     </div>
 
-                    <div className="md:col-span-1 flex flex-col items-center md:items-start text-sm space-y-4">
-                        <div className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2">
+                    <div className="md:col-span-1 flex flex-col items-center md:items-start text-sm space-y-2">
+                        <div className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-2">
                             <Link to="/" style={{ color: "white" }} className="hover:text-gray-400 transition-colors duration-200">About</Link>
                             <Link to="/" style={{ color: "white" }} className="hover:text-gray-400 transition-colors duration-200">Contact</Link>
                             <Link to="/" style={{ color: "white" }} className="hover:text-gray-400 transition-colors duration-200">Careers</Link>
                             <Link to="/" style={{ color: "white" }} className="hover:text-gray-400 transition-colors duration-200">Coupons</Link>
                         </div>
-                        <div className="flex space-x-4 mt-4">
+                        <div className="flex space-x-8 mt-4">
                             <Link to="/" style={{ color: "white" }} className="transition-colors duration-200">
                                 <Rss className="w-6 h-6" />
                             </Link>
